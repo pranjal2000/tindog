@@ -1,0 +1,177 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* navigaton bar */
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px 0 0;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+/* Download buttons */
+
+.Download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  margin-left: 12%;
+  position: absolute;
+}
+
+/* featurers */
+
+#features{
+  background-color: white;
+  text-align: center;
+  position: relative;/*  checkout video 88 */
+  z-index: 1; /*not needed toh//check out flow chart*/
+}
+.feature{
+  padding: 3% 4%;
+
+}
+.feature-icon{
+  color: #ef8172;
+  font-size: 3.5rem;
+  padding-bottom: 20px;
+}
+.feature-icon:hover{
+  color: #ff4c68;
+}
+.feature-head{
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.feature-detail{
+  color: #8f8f8f;
+  font-size: 1.2rem;
+}
+
+/* testimonial section */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.carousel-item{
+  padding: 7% 15%;
+  /* applying padding to testimonial icludes the buttons of carousel which makes them closer to text away from left-right ends */
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3em;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 12%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding: 3%;
+}
+
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* responsive behavior */
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+    transform: rotate(0);
+    margin: auto;
+    width: 60%;
+    padding-top: 27px;
+  }
+}
+
+/* call to action */
+
+#cta{
+  text-align: center;
+  padding :3%;
+  background-color: #ff4c68;
+  color: white;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+.cta-head{
+  font-size: 3em;
+  width: 60%;
+  line-height: 1.5;
+  margin: auto;
+  padding-top: 3%;
+}
+
+/* footer */
+
+#footer{
+  text-align: center;
+  padding: 7% 15% 3%;
+  font-size: 1rem;
+}
+.social-icons{
+  margin: 20px 10px;
+}
